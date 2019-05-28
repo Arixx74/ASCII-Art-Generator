@@ -1,3 +1,5 @@
+#   Main program here
+#   Use visual studio to run the solution and use Python 3.6(64-bit)
 
 import sys
 from sec_window import SEC_WINDOW
