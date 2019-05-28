@@ -13,7 +13,7 @@ class MAIN_WINDOW(QtWidgets.QMainWindow):
         self.left = 500
         self.width = 940
         self.height = 140
-        self.icon_name = "NIT-Silchar-Logo.png"
+        #self.icon_name = "Logo.png"
         #self.defaultImgPath = "C:/Users/Arif Ahmed/Pictures/Arts/7cxunfcbuzl11.jpg"
         #self.defaultImgPathLabel = "Please select an image.."
         self.defaultImgPath = 'C:\\Users\\Arif Ahmed\\Pictures'
@@ -21,7 +21,7 @@ class MAIN_WINDOW(QtWidgets.QMainWindow):
         self.InitWindow()
 
     def InitWindow(self):
-        self.setWindowIcon(QtGui.QIcon(self.icon_name))
+        #self.setWindowIcon(QtGui.QIcon(self.icon_name))
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
         
